@@ -3,7 +3,7 @@ const textHight = textWrap.offsetHeight;
 
 function contHeight(){
     const contTop = (window.innerHeight - textHight) / 2
-    textWrap.style.top  = (contTop-200) + 'px';
+    textWrap.style.top  = contTop + 'px';
     console.log(contTop)
 }
 
